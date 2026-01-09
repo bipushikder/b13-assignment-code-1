@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* share style  */
+body .inter-uniquifier{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+    padding: 12px 16px 12px 16px;
+    background-color: rgba(70, 145, 101, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+/* main style  */
+
+#header-content{
+    background-color: aliceblue;
+}
+
+.header-section{
+    background-color: ##FFFFFF, rgba(255, 255, 255, 1);
+    width: 83%;
+    max-width: 1920px;
+    /* border: 3px solid red ; */
+    margin: 0 auto ;
+    padding: 16px 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navber-logo img{
+    max-width: 139px;
+}
+.header-section ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.header-section a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-section{
+    background-image: url(./assets/hero-bg.png);
+    /* background-repeat: no-repeat; */
+    max-width: 2042px;
+    height: 674px;
+}
+.banner-content{
+    text-align: center;
+    padding-top: 115px;
+}
+.banner-heading{
+    color: rgba(255, 255, 255, 1);
+    padding-top: 16px;
+    font-size: 72px;
+    font-weight: 700;
+}
+.banner-heading .heading-color{
+    color: rgba(48, 184, 104, 1);
+}
+.banner-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 16px;
+}
+.banner-btn1{
+    padding: 12px 16px 12px 16px;
+    background-color: rgba(70, 145, 101, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    margin-top: 32px;
+    margin-right: 16px;
+}
+.banner-btn2{
+    padding: 12px 16px 12px 16px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 32px;
+}
+#does section{
+
+}
+.does-container{
+    text-align: center;
+    padding-top: 60px;
+
+}
+.does-container h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 25, 49, 1);
+
+}
+.does-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    padding-top: 16px;
+}
+.does-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    width: 83%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+.does-info{
+    max-width: 322px;
+    padding: 24px;
+    text-align: center;
+    
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 44px;
+    border-radius: 5px;
+    
+
+
+
+}
+.does-info img{
+    background: rgba(249, 85, 85, 1);;
+    width: 60px;
+    margin-top: 84px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.does-info h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 1.5px 2.49px;
+    margin-top: 16px;
+}
+.does-info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin-top: 16px;
+}
